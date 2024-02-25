@@ -1,28 +1,50 @@
-*{
+* {
     padding: 0;
-    
+
 }
 
-h1{
+h1 {
     font-size: 50px;
     margin-left: 20px;
 }
 
-#heading-short{
+#heading-short {
     font-size: 12px;
 }
 
-div .heading{
+.container {
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: 10px;
+
+}
+
+
+.container p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #fb8500;
+    padding: 10px;
+    border-radius: 10px;
+    color: #003049;
+
+}
+
+h3 {
+    font-size: 15px;
+}
+
+div .heading {
     font-size: 25px;
     color: red;
 }
 
-div span{
+div span {
     color: blue;
     font-weight: 900;
 }
 
-#main{
+#main {
     background-color: #f4f4f4;
     padding: 20px;
     margin: 20px;
@@ -30,7 +52,7 @@ div span{
     border-radius: 10px;
 }
 
- #author{
+#author {
     color: #000;
     font-size: 25px;
     margin: 20px;
@@ -38,7 +60,7 @@ div span{
     font-family: 'Courier New', Courier, monospace;
 }
 
-#git-docs a{
+#git-docs a {
     color: #af15d1;
     font-size: 20px;
     margin: 20px;
@@ -50,15 +72,29 @@ div span{
 /* media queries b */
 
 
-@media screen and (max-width :612px){
-    h1{
+@media screen and (max-width :709px) {
+    h1 {
         font-size: 30px;
     }
+
 }
 
 
-@media screen and (max-width :380px){
-    h1{
+@media screen and (max-width :470px) {
+    h1 {
         font-size: 20px;
     }
+
+}
+
+
+
+
+
+@media screen and (min-width :486px) {
+    .container p {
+        width: 500px;
+
+    }
+
 }
