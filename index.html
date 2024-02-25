@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>Git and Github Cheatsheet</h1>
+    <h1>Git and Github Commands<span id="heading-short"> and information</span></h1>
     <div id =main>
         <div class="heading">Lecture-1(Course Orientation) ✅✅</div>
 
@@ -67,7 +67,21 @@
         <p>9.&nbsp;&nbsp; <span>|| git log --outline ||</span>------------------------------(pretty)-----------------------------> pretty the git log by showing the git commit in single line</p>
         <p>10. <span>|| git commit --ammend ||</span>----------------------(change 1 commit)---------------> it helps to ammends the last commit,when anything is forgotten but only for the last commit and it can also change commit name</p>
         <p> .gitignore folder contains the name of the thing which are to ignored by the git and it will not track <p>
-
+            
+            <div class="heading">Lecture-6(Working with Branches) ✅✅ </div>
+            
+            <p> Branch enables us for making seperate context where we can try new thing  <p>
+            <p>11. <span>|| git branch ||</span>------------------------------------------(show branch)-----------------> it show all the branches present in the repository</p>
+            <p>12. <span>|| git branch (branch name) ||</span>----------------------(new branch)------------------> it makes new branch by writing name of the branch</p>
+            <p>13. <span>|| git switch (branch name) ||</span>----------------------(changes branch)---------------> it changes branch from one branch to written branch name</p>
+            <p>14. <span>|| git commit -a -m "commit" ||</span>-------------------(add commit)-------------------> it add and commit all unstages changes at the same time</p>
+            <p>13. <span>|| git checkout (branch name) ||</span>-------------------(changes branch)---------------> it changes branch from one branch to written branch name (same as switch command)</p>
+            <p>15. <span>|| git switch -c (branch name) ||</span>-------------------(new change)-------------------> it creates and change branch to the new branch at the same time <p>
+            <p>15. <span>|| git checkout -b (branch name) ||</span>---------------(new change)-------------------> it creates and change branch to the new branch at the same time (same as above commands)<p>
+            <p>16. <span>|| git branch -d (branch name) ||</span>-----------------(delete)--------------------------> it deletes the branch which name is written but cannot delete branch which the user in currently on (switch to other branch and delete)<p>
+            <p>17. <span>|| git branch -D (branch name) ||</span>-----------------(force delete)-------------------> it forcecully delete the branch <p>
+                To change a branch first check the current does not have changes to be committed ,then change to another branch
+            <p>18. <span>|| git branch -m (rename) ||</span>-----------------------(change name)-------------------> it changes the name of the branch but we have to present at that branch   <p>
 
     </div>
     <span id ="author">-By Yash Maheshwari</span>

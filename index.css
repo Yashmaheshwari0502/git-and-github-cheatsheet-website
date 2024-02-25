@@ -8,6 +8,10 @@ h1{
     margin-left: 20px;
 }
 
+#heading-short{
+    font-size: 12px;
+}
+
 div .heading{
     font-size: 25px;
     color: red;
@@ -28,8 +32,10 @@ div span{
 
  #author{
     color: #000;
-    font-size: 20px;
+    font-size: 25px;
     margin: 20px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #git-docs a{
@@ -41,7 +47,7 @@ div span{
 }
 
 
-/* media queries below */
+/* media queries b */
 
 
 @media screen and (max-width :612px){
