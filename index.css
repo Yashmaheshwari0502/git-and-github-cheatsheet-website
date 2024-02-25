@@ -5,6 +5,7 @@
 
 h1{
     font-size: 50px;
+    margin-left: 20px;
 }
 
 div .heading{
@@ -37,4 +38,21 @@ div span{
     margin: 20px;
     text-decoration: none;
     margin-left: 1px;
+}
+
+
+/* media queries below */
+
+
+@media screen and (max-width :612px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width :380px){
+    h1{
+        font-size: 20px;
+    }
 }
