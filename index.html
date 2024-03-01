@@ -143,11 +143,25 @@
             changes the name of the branch but we have to present at that branch
         <p>
 
-        <div class="heading">Lecture-7(Merging Branches,Oh Boy!) </div>
+        <div class="heading">Lecture-7(Merging Branches,Oh Boy!) ✅✅ </div>
         <p>Merging is good </p>
         <p>for Merging move to the recieving branch and then run command </p>
         <p>19. <span>|| git merge (branch name) ||</span>---------------(merge)--------------------------------> it merges the written branch name to the branch we are present</p>
         <p>20. <span>|| git branch -v ||</span>------------------------------(branch & commit)-------------------> it shows all the branches in the repository with last commit of branch and the branch is pointing to which commit is also shown</p>
+        
+        <div class="heading">Lecture-8(Comparing Changes with Git Diff) </div>
+        <p>21. <span>|| git diff ||</span>---------------------------------------------------(list changes)--------------------------> it shows all the unstaged changes made compared to the last commit </p>
+        <p>22. <span>|| git commit -am "commit name" ||</span>-------------------(add commit)--------------------------> it add and commit the changes from the unstaging area to staging area and then commit </p>
+        <p>23. <span>|| git diff HEAD ||</span>------------------------------------------(changes Head)-----------------------> it lists all the unstaged changes and all staged changes from the last commit </p>
+        <p>24. <span>|| git diff --staged ||</span>-----------------------------------------(only staged changes)----------------> it lists only staged changes from the last commit </p>
+        <p>24. <span>|| git diff --cached ||</span>-----------------------------------------(only cached changes)---------------> it lists only staged changes from the last commit </p>
+        <p>25. <span>|| git diff HEAD (filename) ||</span>------------------------------(list particular file)------------------->  it list changes but of the particular filename we write </p>
+        <p>25. <span>|| git diff --staged (filename) ||</span>-----------------------------(list particular file)-------------------> it lists changes but of the particular filename we write </p>
+        <p>26. <span>|| git diff branch1..branch2 ||</span>------------------------------(list branches changes)---------------> it list changes in the branches but the order matter  </p>
+        <p>26. <span>|| git diff branch1 branch2 ||</span>------------------------------(list branches changes)---------------> it list changes in  the branches but the order matter  </p>
+        <p>27. <span>|| git diff commit1..commit2 ||</span>-----------------------------(changes in commit)-----------------> it list changes in the commits </p>
+        <p>28. <span>|| git diff HEAD HEAD~1 ||</span>--------------------------------(lower commit)-----------------> it list changes of lower commit from head to the head commit</p>
+
 
 
 
