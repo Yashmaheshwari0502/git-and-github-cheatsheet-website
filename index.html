@@ -129,7 +129,8 @@
             creates and change branch to the new branch at the same time
         <p>
         <p>15. <span>|| git checkout -b (branch name) ||</span>---------------(new change)-------------------> it
-            creates and change branch to the new branch at the same time (same as above commands) <p>
+            creates and change branch to the new branch at the same time (same as above commands)
+        <p>
         <p>16. <span>|| git branch -d (branch name) ||</span>-----------------(delete)--------------------------> it
             deletes the branch which name is written but cannot delete branch which the user in currently on (switch to
             other branch and delete)
@@ -146,34 +147,73 @@
         <div class="heading">Lecture-7(Merging Branches,Oh Boy!) ✅✅ </div>
         <p>Merging is good </p>
         <p>for Merging move to the recieving branch and then run command </p>
-        <p>19. <span>|| git merge (branch name) ||</span>---------------(merge)--------------------------------> it merges the written branch name to the branch we are present</p>
-        <p>20. <span>|| git branch -v ||</span>------------------------------(branch & commit)-------------------> it shows all the branches in the repository with last commit of branch and the branch is pointing to which commit is also shown</p>
-        
+        <p>19. <span>|| git merge (branch name) ||</span>---------------(merge)--------------------------------> it
+            merges the written branch name to the branch we are present</p>
+        <p>20. <span>|| git branch -v ||</span>------------------------------(branch & commit)-------------------> it
+            shows all the branches in the repository with last commit of branch and the branch is pointing to which
+            commit is also shown</p>
+
         <div class="heading">Lecture-8(Comparing Changes with Git Diff) ✅✅ </div>
-        <p>21. <span>|| git diff ||</span>---------------------------------------------------(list changes)--------------------------> it shows all the unstaged changes made compared to the last commit </p>
-        <p>22. <span>|| git commit -am "commit name" ||</span>-------------------(add commit)--------------------------> it add and commit the changes from the unstaging area to staging area and then commit </p>
-        <p>23. <span>|| git diff HEAD ||</span>------------------------------------------(changes Head)-----------------------> it lists all the unstaged changes and all staged changes from the last commit </p>
-        <p>24. <span>|| git diff --staged ||</span>-----------------------------------------(only staged changes)----------------> it lists only staged changes from the last commit </p>
-        <p>24. <span>|| git diff --cached ||</span>-----------------------------------------(only cached changes)---------------> it lists only staged changes from the last commit </p>
-        <p>25. <span>|| git diff HEAD (filename) ||</span>------------------------------(list particular file)------------------->  it list changes but of the particular filename we write </p>
-        <p>25. <span>|| git diff --staged (filename) ||</span>-----------------------------(list particular file)-------------------> it lists changes but of the particular filename we write </p>
-        <p>26. <span>|| git diff branch1..branch2 ||</span>------------------------------(list branches changes)---------------> it list changes in the branches but the order matter  </p>
-        <p>26. <span>|| git diff branch1 branch2 ||</span>------------------------------(list branches changes)---------------> it list changes in  the branches but the order matter  </p>
-        <p>27. <span>|| git diff commit1..commit2 ||</span>-----------------------------(changes in commit)-----------------> it list changes in the commits </p>
-        <p>28. <span>|| git diff HEAD HEAD~1 ||</span>--------------------------------(lower commit)-----------------> it list changes of lower commit from head to the head commit</p>
-        
+        <p>21. <span>|| git diff ||</span>---------------------------------------------------(list
+            changes)--------------------------> it shows all the unstaged changes made compared to the last commit </p>
+        <p>22. <span>|| git commit -am "commit name" ||</span>-------------------(add commit)-------------------------->
+            it add and commit the changes from the unstaging area to staging area and then commit </p>
+        <p>23. <span>|| git diff HEAD ||</span>------------------------------------------(changes
+            Head)-----------------------> it lists all the unstaged changes and all staged changes from the last commit
+        </p>
+        <p>24. <span>|| git diff --staged ||</span>-----------------------------------------(only staged
+            changes)----------------> it lists only staged changes from the last commit </p>
+        <p>24. <span>|| git diff --cached ||</span>-----------------------------------------(only cached
+            changes)---------------> it lists only staged changes from the last commit </p>
+        <p>25. <span>|| git diff HEAD (filename) ||</span>------------------------------(list particular
+            file)-------------------> it list changes but of the particular filename we write </p>
+        <p>25. <span>|| git diff --staged (filename) ||</span>-----------------------------(list particular
+            file)-------------------> it lists changes but of the particular filename we write </p>
+        <p>26. <span>|| git diff branch1..branch2 ||</span>------------------------------(list branches
+            changes)---------------> it list changes in the branches but the order matter </p>
+        <p>26. <span>|| git diff branch1 branch2 ||</span>------------------------------(list branches
+            changes)---------------> it list changes in the branches but the order matter </p>
+        <p>27. <span>|| git diff commit1..commit2 ||</span>-----------------------------(changes in
+            commit)-----------------> it list changes in the commits </p>
+        <p>28. <span>|| git diff HEAD HEAD~1 ||</span>--------------------------------(lower commit)----------------->
+            it list changes of lower commit from head to the head commit</p>
+
         <div class="heading">Lecture-9(The Ins and Outs of stashing) ✅✅ </div>
-        <p>29. <span>|| git stash  ||</span>----------------------------------(stash files)----------------------------> it stash the unstaged and staged files in stash so we can change branch and not commit everytime  <p>
-        <p>29. <span>|| git stash (save) ||</span>--------------------------(stash files)-----------------------------> it stash the unstaged and staged files in stash so we can change branch and not commit everytime </p>
-        <p>30. <span>|| git stash pop ||</span>----------------------------(empty stash)---------------------------> when its written in terminal all the staged and unstaged files in stash area add to the folder or file </p>
-        <p>31. <span>|| git stash apply ||</span>--------------------------(same stash)---------------------------> when this command is written it add the files to the current folder but it  is different from pop it can be used many times and in different branch </p>
+        <p>29. <span>|| git stash ||</span>----------------------------------(stash files)---------------------------->
+            it stash the unstaged and staged files in stash so we can change branch and not commit everytime
+        <p>
+        <p>29. <span>|| git stash (save) ||</span>--------------------------(stash files)----------------------------->
+            it stash the unstaged and staged files in stash so we can change branch and not commit everytime </p>
+        <p>30. <span>|| git stash pop ||</span>----------------------------(empty stash)--------------------------->
+            when its written in terminal all the staged and unstaged files in stash area add to the folder or file </p>
+        <p>31. <span>|| git stash apply ||</span>--------------------------(same stash)---------------------------> when
+            this command is written it add the files to the current folder but it is different from pop it can be used
+            many times and in different branch </p>
         <p>Muliple stash can be stored one after the other</p>
-        <p>32. <span>|| git stash list ||</span>------------------------------(list stash)-----------------------------> it helps to show the list of stash stored in the stash stack </p>
-        <p>33. <span>|| git stash apply stash@{number} ||</span>----(use particular stash)----------------> it helps to use the particular number stash in the list of stash</p>
-        <p>34. <span>|| git stash drop stash@{number} ||</span>-----(drop stash)---------------------------> it helps to drop the particular number stash in the list of stash</p>
-        <p>35. <span>|| git stash clear ||</span>----------------------------(drop stash)--------------------------> it clear everything in the stash list</p>
+        <p>32. <span>|| git stash list ||</span>------------------------------(list stash)----------------------------->
+            it helps to show the list of stash stored in the stash stack </p>
+        <p>33. <span>|| git stash apply stash@{number} ||</span>----(use particular stash)----------------> it helps to
+            use the particular number stash in the list of stash</p>
+        <p>34. <span>|| git stash drop stash@{number} ||</span>-----(drop stash)---------------------------> it helps to
+            drop the particular number stash in the list of stash</p>
+        <p>35. <span>|| git stash clear ||</span>----------------------------(drop stash)--------------------------> it
+            clear everything in the stash list</p>
 
 
+        <div class="heading">Lecture-10(Undoing Changes & Time Traveling)</div>
+        <p>36. <span>|| git checkout commit (commit-hash) ||</span>----------------------------------------------------------------------> it goes back to old commit by writing the commit hash and it will give a message of detached head which means head is pointing to written commit hash</p>
+        <p>37. <span>|| git checkout master ||</span>-------------------------------------------------------------------------------------------> it is used for going back to the branch where we were (its after we go down in some old commit)</p>
+        <p>37. <span>|| git switch master ||</span>----------------------------------------------------------------------------------------------> it is used for going back to the branch where we were (its after we go down in some old commit)</p>
+        <p>we can go back to a commit and  start a new branch. For starting a new branch we have to write same code as we right <span>(git switch -c (branch name) )</span></p>
+        <p>36. <span>|| git checkout HEAD~(number) ||</span>-----------------------------------------------------------------------------> it is an another way of going back to the commit but in this we try to go back using number and HEAD minus that number will be the commit we want to go (This is used when we dont want to use commits hash)</p>
+        <p>38. <span>|| git checkout HEAD (file name) ||</span>----------------------------------------------------------------------------> it is just to delete any files not staged (very silly)</p>
+        <p>38. <span>|| git switch --(file name) ||</span>---------------------------------------------------------------------------------------> it is just to delete any files not staged (very silly)</p>
+        <p>39. <span>|| git restore (file name) ||</span>----------------------------------------------------------------------------------------> discard unstaged changes in a file to the last commit to the current HEAD (last head)</p>
+        <p>40. <span>|| git restore --source HEAD~(number) (file name) ||</span>------------------------------------------------------> we can restore the file till the commit we want by writing number after HEAD and file name (above code will not change the head)</p>
+        <p>41. <span>|| git restore --staged (file name) ||</span>-----------------------------------------------------------------------------> When we want to unstage some file that we have staged it is used (Git also tell when stage some file and then use Git Status command )</p>
+        <p>42. <span>|| git reset (commit hash) ||</span>--------------------------------------------------------------------------------------> it reset the repository to the commit hash with deleting the above commit of written commit hash (it only takes back to old commit with deleting above commit) </p>
+        <p>43. <span>|| git reset --hard (commit hash) ||</span>-----------------------------------------------------------------------------> it will take back to the commit name written and also delete all the commit data above it </p>
+        <p>44. <span>|| git revert (commit hash) ||</span>------------------------------------------------------------------------------------> it does not delete the commit rather it will create a new commit not containing the commit hash file  (we should use this one rather than <span>git reset </span> because it will not create conflicts later in someone code or branch)</p>
 
 
     </div>
